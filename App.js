@@ -61,7 +61,7 @@ export default class App extends React.Component {
         </TouchableOpacity>
         <View style={{
           flexDirection:"row",
-          alignSelf:"center"
+          alignSelf:"auto"
         }}>
           {this.state.chunks.map((item, index) => {
             return (
